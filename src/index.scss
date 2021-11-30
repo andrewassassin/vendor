@@ -1,0 +1,50 @@
+.p-button {
+    margin-right: .8rem;
+}
+
+.p-buttonset {
+    .p-button {
+        margin-right: 0;
+    }
+}
+
+.sizes {
+    .button {
+        margin-bottom: .5rem;
+        display: block;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.form-varia .p-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+}
+
+@media screen and (max-width: 640px) {
+    .p-button {
+        margin-bottom: .5rem;
+        width: 78vw;
+
+        &:not(.p-button-icon-only) {
+            display: flex;
+            width: 100%;
+        }
+    }
+
+    .p-buttonset {
+        .p-button {
+            margin-bottom: 0;
+        }
+    }
+
+    .form-varia .p-button{
+        width: 80vw;
+        margin-right:0 ;
+    }
+}

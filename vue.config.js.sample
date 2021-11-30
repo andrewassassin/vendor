@@ -1,0 +1,15 @@
+module.exports = {
+    publicPath: '/',
+    devServer: {
+        host: '192.168.50.2',
+	port: '3002',
+        allowedHosts: [
+            'x-vendor.pcpogo.com',
+            'xvue.pcpogo.com',
+            '192.168.50.2'
+        ],
+        public: 'x-vendor.pcpogo.com',
+        disableHostCheck: false,
+    },
+    outputDir: '../v-vendorv.git/v-vendorv'
+};
